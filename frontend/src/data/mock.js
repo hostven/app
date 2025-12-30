@@ -283,58 +283,62 @@ Collaboration is central to our approach. We work closely with stakeholders, dev
     ]
   },
   {
-    id: "maintenance",
-    title: "Maintenance & Support",
-    shortDesc: "Keep your digital presence running smoothly.",
-    icon: "Settings",
-    image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=800",
-    heroImage: "https://images.unsplash.com/photo-1519217651866-847339e674d4?w=1200",
-    fullDescription: `Your website is a living asset that requires ongoing care and attention to perform at its best. At NioDelta Web Studio, our maintenance and support services ensure your digital presence remains secure, up-to-date, and optimized for success.
+    id: "mobile-app",
+    title: "Mobile App Development",
+    shortDesc: "Native and cross-platform apps that users love.",
+    icon: "Smartphone",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
+    heroImage: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200",
+    fullDescription: `In an era where smartphones have become extensions of ourselves, mobile applications represent the most intimate and powerful way to connect with your audience. At NioDelta Web Studio, we specialize in creating mobile applications that don't just function—they inspire, engage, and deliver exceptional value to users while driving measurable business results.
 
-Website maintenance is often overlooked until something goes wrong. But by then, the damage may already be done—lost traffic, compromised security, or frustrated customers. Our proactive approach prevents problems before they occur, giving you peace of mind and ensuring your site always performs at its best.
+The mobile landscape has transformed dramatically over the past decade. Today, users spend an average of 4+ hours daily on their mobile devices, with the vast majority of that time spent within apps. This represents an unprecedented opportunity for businesses to build deeper relationships with their customers through beautifully crafted mobile experiences.
 
-Security is our top priority. Cyber threats evolve constantly, and websites are frequent targets for hackers. We implement comprehensive security measures including regular security scans, malware detection and removal, firewall management, and security patch installation. Our monitoring systems alert us to potential threats 24/7.
+Our mobile app development services encompass the full spectrum of possibilities—from native iOS and Android applications that leverage platform-specific capabilities to cross-platform solutions that maximize reach and development efficiency. We work with cutting-edge technologies including React Native, Flutter, Swift, and Kotlin to deliver apps that perform flawlessly and feel perfectly at home on any device.
 
-Software updates are critical for security and performance. We keep your content management system, plugins, themes, and other software components up to date, carefully testing updates before deployment to prevent compatibility issues.
+Every successful mobile app begins with a clear understanding of user needs and business objectives. Our discovery process goes beyond surface-level requirements gathering. We immerse ourselves in understanding your target users—their behaviors, pain points, motivations, and the contexts in which they'll use your app. This deep empathy informs every decision we make throughout the development process.
 
-Performance monitoring ensures your site loads quickly and reliably. We monitor server response times, page load speeds, uptime, and other performance metrics. When issues arise, we're often aware and working on solutions before you even notice a problem.
+User experience design for mobile requires a specialized skill set that accounts for the unique constraints and opportunities of small screens, touch interfaces, and mobile contexts. Our designers are experts in creating intuitive navigation patterns, thumb-friendly interactions, and information hierarchies that make complex functionality feel simple and natural.
 
-Backup and disaster recovery protect your data and content. We perform regular automated backups and store them securely off-site. In the unlikely event of a catastrophic failure, we can restore your site quickly, minimizing downtime and data loss.
+We understand that mobile users are often distracted, multitasking, or on the move. Our designs account for these realities, creating experiences that are forgiving of errors, easy to resume after interruption, and optimized for one-handed use when appropriate. Microinteractions and haptic feedback add layers of delight that users feel, even if they don't consciously notice.
 
-Content updates keep your site fresh and relevant. Whether you need to update product information, publish blog posts, add new pages, or make design tweaks, our team is ready to help. We can handle updates on your behalf or empower you to make changes yourself.
+Performance is paramount in mobile app development. Users have little patience for apps that lag, stutter, or drain their battery. Our development team obsesses over performance optimization—from efficient rendering and memory management to strategic caching and background processing. We test on real devices across a range of hardware configurations to ensure consistent performance for all users.
 
-SEO maintenance ensures your site continues to rank well in search results. We monitor rankings, update content, fix broken links, optimize new pages, and stay on top of algorithm changes that might affect your visibility.
+Native development remains the gold standard for apps that need to fully leverage device capabilities. Our iOS developers work in Swift and SwiftUI to create apps that feel perfectly integrated with the Apple ecosystem, taking advantage of features like Widgets, App Clips, and seamless integration with other Apple services. Our Android team builds with Kotlin and Jetpack Compose, following Material Design principles while leveraging Android-specific features like widgets, deep linking, and Google service integrations.
 
-Analytics and reporting give you insights into how your site is performing. We provide regular reports on traffic, user behavior, conversions, and other key metrics, along with recommendations for improvement.
+For many projects, cross-platform development offers compelling advantages. React Native and Flutter enable us to build for both platforms simultaneously while maintaining near-native performance and user experience. This approach can significantly reduce development time and cost while ensuring feature parity across platforms. Our expertise helps you determine which approach best fits your specific needs, timeline, and budget.
 
-Our support team is available when you need us. Whether you have a question, encounter an issue, or need assistance with your site, help is just a message or call away. We offer multiple support tiers to match your needs and budget.
+Backend architecture for mobile apps presents unique challenges. Users expect seamless synchronization across devices, offline functionality, and real-time updates. We design robust API architectures that handle these requirements elegantly, implementing efficient data synchronization strategies, conflict resolution mechanisms, and graceful degradation when connectivity is limited.
 
-Emergency support is available for critical issues. If your site goes down or experiences a major problem, our rapid response team springs into action to resolve the issue as quickly as possible.
+Security in mobile apps extends beyond typical web security considerations. We implement secure data storage using platform-provided encryption, secure communication channels, certificate pinning, and protection against reverse engineering and tampering. For apps handling sensitive data, we ensure compliance with relevant regulations including GDPR, HIPAA, and PCI-DSS.
 
-We document everything we do, maintaining detailed records of updates, changes, and issues. This documentation ensures continuity and makes it easy to understand your site's history.
+Push notifications represent a powerful engagement tool when used thoughtfully. We help you develop notification strategies that provide genuine value to users rather than becoming annoying interruptions. Our implementations support rich notifications, actionable buttons, and intelligent delivery timing based on user preferences and behavior patterns.
 
-Training and education empower you to manage routine tasks yourself. We provide comprehensive training on your content management system and other tools, along with documentation and resources for future reference.
+App store optimization (ASO) is crucial for discovery. We guide you through the optimization of app store listings, including keyword strategy, compelling descriptions, screenshot and preview video creation, and rating/review management strategies that help your app stand out in crowded marketplaces.
 
-Scalability planning ensures your site can grow with your business. As your traffic increases and your needs evolve, we help you plan and implement the infrastructure and features needed to support your growth.
+Analytics and performance monitoring don't end at launch. We implement comprehensive analytics solutions that provide insights into user behavior, feature adoption, conversion funnels, and technical performance. These insights drive continuous improvement through data-informed iterations.
 
-Our maintenance clients enjoy priority access to our development team for enhancements and new features. When you're ready to add functionality or redesign a section, we're already familiar with your site and ready to help.`,
+Our commitment extends well beyond the initial launch. Mobile platforms evolve rapidly, with major OS updates released annually and new devices constantly entering the market. We provide ongoing maintenance and updates to ensure your app remains compatible, secure, and aligned with the latest platform capabilities and design guidelines.
+
+We've successfully delivered mobile applications across diverse industries—from consumer apps with millions of downloads to enterprise solutions that transform how teams collaborate and operate. Whether you're a startup with a revolutionary concept or an established enterprise looking to mobilize your operations, we have the expertise to bring your vision to life.
+
+The mobile app development journey is collaborative, iterative, and ultimately rewarding. We partner with you not just as a vendor, but as invested stakeholders in your success. Your app's success is our success, and we're committed to delivering results that exceed your expectations while delighting your users.`,
     features: [
-      "24/7 uptime monitoring",
-      "Regular security scanning",
-      "Software updates and patches",
-      "Daily automated backups",
-      "Performance optimization",
-      "Content updates and changes",
-      "Priority technical support",
-      "Monthly performance reports"
+      "Native iOS & Android development",
+      "Cross-platform React Native & Flutter",
+      "UI/UX design for mobile",
+      "Backend API development",
+      "Push notification systems",
+      "Offline-first architecture",
+      "App store optimization (ASO)",
+      "Ongoing maintenance & updates"
     ],
     process: [
-      { step: 1, title: "Assessment", desc: "Evaluating current site status" },
-      { step: 2, title: "Plan Development", desc: "Creating maintenance schedule" },
-      { step: 3, title: "Monitoring Setup", desc: "Implementing tracking systems" },
-      { step: 4, title: "Regular Maintenance", desc: "Ongoing updates and checks" },
-      { step: 5, title: "Reporting", desc: "Monthly status reports" },
-      { step: 6, title: "Continuous Support", desc: "Always available assistance" }
+      { step: 1, title: "Discovery", desc: "Understanding users and objectives" },
+      { step: 2, title: "Design", desc: "Creating intuitive mobile experiences" },
+      { step: 3, title: "Development", desc: "Building with modern frameworks" },
+      { step: 4, title: "Testing", desc: "Rigorous QA on real devices" },
+      { step: 5, title: "Launch", desc: "App store submission & optimization" },
+      { step: 6, title: "Iterate", desc: "Continuous improvement based on data" }
     ]
   }
 ];
