@@ -4,7 +4,7 @@ import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import ScrollReveal from '../components/ui/ScrollReveal';
 import { services } from '../data/mock';
-import { ArrowRight, ArrowLeft, CheckCircle, Monitor, ShoppingCart, Palette, TrendingUp, Figma, Settings } from 'lucide-react';
+import { ArrowRight, ArrowLeft, CheckCircle, Monitor, ShoppingCart, Palette, TrendingUp, Figma, Smartphone } from 'lucide-react';
 
 const iconMap = {
   Monitor: Monitor,
