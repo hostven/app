@@ -350,6 +350,35 @@ We stay ahead of algorithm changes and industry trends, continuously adapting ou
     icon: "Figma",
     image: "https://images.unsplash.com/photo-1602576666092-bf6447a729fc?w=800",
     heroImage: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?w=1200",
+    zigzagContent: [
+      {
+        title: "Research-Driven Design Process",
+        description: "Great design starts with understanding. We conduct user interviews, analyze behavioral data, create detailed personas, and map customer journeys. This deep research ensures every design decision is grounded in real user needs, not assumptions.",
+        image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800",
+        stats: [
+          { value: "20+", label: "User interviews per project" },
+          { value: "100%", label: "Data-backed decisions" }
+        ]
+      },
+      {
+        title: "Interactive Prototyping",
+        description: "Before writing a single line of code, we create interactive prototypes that bring your product to life. These clickable mockups allow stakeholders to experience the product and provide feedback early, reducing costly revisions during development.",
+        image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800",
+        stats: [
+          { value: "3-5", label: "Prototype iterations" },
+          { value: "60%", label: "Development time saved" }
+        ]
+      },
+      {
+        title: "Scalable Design Systems",
+        description: "We build comprehensive design systems that ensure consistency and accelerate future development. Our component libraries, style guides, and documentation empower your team to maintain design quality as your product grows.",
+        image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800",
+        stats: [
+          { value: "200+", label: "Components documented" },
+          { value: "40%", label: "Faster iterations" }
+        ]
+      }
+    ],
     fullDescription: `Great design is invisible. When users interact with a well-designed product, they don't notice the design—they simply accomplish their goals effortlessly. At NioDelta Web Studio, we specialize in creating user experiences that feel natural, intuitive, and delightful.
 
 User Experience (UX) design is about understanding people—their needs, their behaviors, their frustrations, and their goals. It's about creating products that not only function properly but feel right to use. Good UX design reduces friction, increases satisfaction, and drives business results.
