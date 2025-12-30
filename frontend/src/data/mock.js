@@ -266,6 +266,35 @@ Our branding work has helped startups establish credibility, helped growing comp
     icon: "TrendingUp",
     image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800",
     heroImage: "https://images.unsplash.com/photo-1686061593269-420785fb8fa0?w=1200",
+    zigzagContent: [
+      {
+        title: "Data-Driven Keyword Strategy",
+        description: "We don't guess—we analyze. Using advanced tools and methodologies, we identify high-value keywords that your target audience actually uses. Our research uncovers opportunities your competitors miss, helping you capture traffic at every stage of the buyer's journey.",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+        stats: [
+          { value: "10K+", label: "Keywords analyzed" },
+          { value: "150%", label: "Traffic increase avg." }
+        ]
+      },
+      {
+        title: "Technical SEO Excellence",
+        description: "Search engines need to crawl, understand, and index your site effectively. We audit and optimize every technical aspect—site architecture, page speed, mobile-friendliness, structured data, and more. The result is a technically sound foundation that supports your rankings.",
+        image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800",
+        stats: [
+          { value: "90+", label: "PageSpeed score" },
+          { value: "0", label: "Critical errors" }
+        ]
+      },
+      {
+        title: "Authority-Building Link Strategy",
+        description: "Quality backlinks remain a crucial ranking factor. We develop ethical, sustainable link-building strategies that earn mentions from authoritative sources in your industry. Our white-hat approach ensures long-term results without risk of penalties.",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+        stats: [
+          { value: "DA 50+", label: "Average link quality" },
+          { value: "100%", label: "White-hat methods" }
+        ]
+      }
+    ],
     fullDescription: `In the vast digital landscape, visibility is everything. If potential customers can't find you, they can't choose you. At NioDelta Web Studio, our SEO and performance optimization services ensure your website not only gets found but delivers exceptional experiences that convert visitors into customers.
 
 Search Engine Optimization is both an art and a science. It requires technical expertise, creative content strategy, and deep understanding of how search engines work. Our team combines all three to deliver sustainable results that grow your organic traffic and revenue.
