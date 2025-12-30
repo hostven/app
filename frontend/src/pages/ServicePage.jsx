@@ -12,7 +12,7 @@ const iconMap = {
   Palette: Palette,
   TrendingUp: TrendingUp,
   Figma: Figma,
-  Settings: Settings,
+  Smartphone: Smartphone,
 };
 
 const ServicePage = () => {
