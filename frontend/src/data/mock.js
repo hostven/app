@@ -434,6 +434,35 @@ Collaboration is central to our approach. We work closely with stakeholders, dev
     icon: "Smartphone",
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
     heroImage: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200",
+    zigzagContent: [
+      {
+        title: "Native iOS & Android Excellence",
+        description: "Our native development teams build apps that feel perfectly at home on each platform. Using Swift and SwiftUI for iOS, Kotlin and Jetpack Compose for Android, we leverage platform-specific features to deliver experiences that users expect from premium applications.",
+        image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=800",
+        stats: [
+          { value: "4.8+", label: "Average app rating" },
+          { value: "1M+", label: "Downloads achieved" }
+        ]
+      },
+      {
+        title: "Cross-Platform Efficiency",
+        description: "When time-to-market and budget efficiency matter, our React Native and Flutter expertise enables us to build for both platforms simultaneously. You get near-native performance with a single codebase, reducing development time by up to 40% while ensuring feature parity.",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+        stats: [
+          { value: "40%", label: "Faster development" },
+          { value: "60%", label: "Cost savings" }
+        ]
+      },
+      {
+        title: "Robust Backend & API Architecture",
+        description: "Great mobile apps need great backends. We design scalable API architectures that support offline functionality, real-time synchronization, and seamless data management. Our backends are built to handle millions of users while maintaining lightning-fast response times.",
+        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+        stats: [
+          { value: "99.99%", label: "API uptime" },
+          { value: "<100ms", label: "Response time" }
+        ]
+      }
+    ],
     fullDescription: `In an era where smartphones have become extensions of ourselves, mobile applications represent the most intimate and powerful way to connect with your audience. At NioDelta Web Studio, we specialize in creating mobile applications that don't just function—they inspire, engage, and deliver exceptional value to users while driving measurable business results.
 
 The mobile landscape has transformed dramatically over the past decade. Today, users spend an average of 4+ hours daily on their mobile devices, with the vast majority of that time spent within apps. This represents an unprecedented opportunity for businesses to build deeper relationships with their customers through beautifully crafted mobile experiences.
