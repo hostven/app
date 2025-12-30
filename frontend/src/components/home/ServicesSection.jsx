@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Monitor, ShoppingCart, Palette, TrendingUp, Figma, Settings, ArrowRight } from 'lucide-react';
+import { Monitor, ShoppingCart, Palette, TrendingUp, Figma, Smartphone, ArrowRight } from 'lucide-react';
 import { services } from '../../data/mock';
 import ScrollReveal from '../ui/ScrollReveal';
 
