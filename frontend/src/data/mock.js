@@ -184,6 +184,35 @@ Mobile commerce is not an afterthought—it's a priority. With mobile shopping c
     icon: "Palette",
     image: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?w=800",
     heroImage: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1200",
+    zigzagContent: [
+      {
+        title: "Logo Design That Tells Your Story",
+        description: "Your logo is the face of your brand. We craft distinctive, memorable marks that capture the essence of who you are and what you stand for. Through extensive exploration and refinement, we create logos that work flawlessly across every medium—from business cards to billboards.",
+        image: "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=800",
+        stats: [
+          { value: "50+", label: "Logo concepts explored" },
+          { value: "100%", label: "Ownership rights" }
+        ]
+      },
+      {
+        title: "Strategic Brand Positioning",
+        description: "We don't just make things look pretty—we position your brand for success. Through competitive analysis, audience research, and strategic thinking, we define what makes you unique and how to communicate it effectively. Your brand strategy becomes the foundation for all marketing efforts.",
+        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+        stats: [
+          { value: "360°", label: "Brand analysis" },
+          { value: "5-10yr", label: "Brand longevity" }
+        ]
+      },
+      {
+        title: "Comprehensive Brand Guidelines",
+        description: "Consistency is key to brand recognition. We deliver detailed brand guidelines that ensure your visual identity remains cohesive across all touchpoints. From color codes and typography rules to voice and tone guidance, your team will have everything needed to maintain brand integrity.",
+        image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800",
+        stats: [
+          { value: "100+", label: "Page brand books" },
+          { value: "All", label: "Formats included" }
+        ]
+      }
+    ],
     fullDescription: `Your brand is more than a logo—it's the complete experience people have with your company. At NioDelta Web Studio, we help businesses develop powerful brand identities that resonate with their target audience and stand the test of time.
 
 Branding is the foundation upon which all your marketing efforts are built. A strong brand creates recognition, builds trust, and differentiates you from competitors. It tells your story, communicates your values, and creates emotional connections with your audience.
