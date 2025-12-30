@@ -127,6 +127,9 @@ const ServicePage = () => {
           </div>
         </section>
 
+        {/* Zig Zag Content Section */}
+        {service.zigzagContent && <ZigZagSection content={service.zigzagContent} />}
+
         {/* Full Description */}
         <section className="py-24 bg-[#050d17]">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
