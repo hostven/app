@@ -24,6 +24,35 @@ export const services = [
     icon: "Monitor",
     image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800",
     heroImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200",
+    zigzagContent: [
+      {
+        title: "Strategic Design That Converts",
+        description: "Every pixel we place serves a purpose. Our design philosophy combines aesthetic excellence with conversion optimization, ensuring your website doesn't just look beautiful—it drives real business results. We analyze user behavior patterns, implement psychological triggers, and create visual hierarchies that naturally guide visitors toward your goals.",
+        image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800",
+        stats: [
+          { value: "300%", label: "Average conversion increase" },
+          { value: "2.5s", label: "Average load time" }
+        ]
+      },
+      {
+        title: "Cutting-Edge Technology Stack",
+        description: "We leverage the latest frameworks and technologies to build websites that are fast, secure, and scalable. From React and Next.js to headless CMS solutions, we choose the right tools for your specific needs. Our development practices ensure clean, maintainable code that your team can work with long after launch.",
+        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800",
+        stats: [
+          { value: "99.9%", label: "Uptime guarantee" },
+          { value: "A+", label: "Security rating" }
+        ]
+      },
+      {
+        title: "Mobile-First Responsive Design",
+        description: "With over 60% of web traffic coming from mobile devices, we design for mobile first and enhance for larger screens. Every interaction is optimized for touch, every layout adapts fluidly, and every user gets the same exceptional experience regardless of their device.",
+        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
+        stats: [
+          { value: "100%", label: "Mobile responsive" },
+          { value: "60%+", label: "Mobile traffic handled" }
+        ]
+      }
+    ],
     fullDescription: `In today's digital-first world, your website is often the first impression potential customers have of your business. At NioDelta Web Studio, we understand that a website is more than just an online presence—it's a powerful tool that can transform visitors into loyal customers, establish your brand authority, and drive sustainable business growth.
 
 Our web design and development services are built on a foundation of strategic thinking, creative excellence, and technical innovation. We don't just build websites; we craft digital experiences that resonate with your target audience and achieve your business objectives.
