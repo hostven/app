@@ -7,10 +7,10 @@ const TechnologySection = () => {
   const [hoveredTech, setHoveredTech] = useState(null);
 
   const techCategories = [
-    { key: 'frontend', label: 'Frontend', color: '#3B82F6' },
-    { key: 'backend', label: 'Backend', color: '#10B981' },
-    { key: 'mobile', label: 'Mobile App', color: '#8B5CF6' },
-  ];
+  { key: 'frontend', label: 'Frontend', color: '#3B82F6' },
+  { key: 'backend', label: 'Backend', color: '#10B981' },
+  { key: 'mobile', label: 'Mobile App', color: '#8B5CF6' }];
+
 
   return (
     <section className="py-24 bg-[#07172a] relative overflow-hidden">
@@ -41,30 +41,30 @@ const TechnologySection = () => {
         <ScrollReveal delay={100}>
           <Tabs defaultValue="frontend" className="w-full">
             <TabsList className="w-full max-w-md mx-auto grid grid-cols-3 bg-white/5 border border-white/10 rounded-xl p-1 mb-12">
-              {techCategories.map((cat) => (
-                <TabsTrigger
-                  key={cat.key}
-                  value={cat.key}
-                  className="text-gray-400 data-[state=active]:bg-[#3B82F6] data-[state=active]:text-white rounded-lg py-3 transition-all duration-300"
-                >
+              {techCategories.map((cat) =>
+              <TabsTrigger
+                key={cat.key}
+                value={cat.key}
+                className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow data-[state=active]:bg-[#3B82F6] data-[state=active]:text-white transition-all duration-300 !font-medium !text-sm px-3 py-3 !rounded-[10px] text-gray-400">
+
                   {cat.label}
                 </TabsTrigger>
-              ))}
+              )}
             </TabsList>
 
-            {techCategories.map((cat) => (
-              <TabsContent key={cat.key} value={cat.key} className="mt-0">
+            {techCategories.map((cat) =>
+            <TabsContent key={cat.key} value={cat.key} className="mt-0">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-                  {technologies[cat.key].map((tech, index) => (
-                    <div
-                      key={index}
-                      className="group relative"
-                      onMouseEnter={() => setHoveredTech(tech.name)}
-                      onMouseLeave={() => setHoveredTech(null)}
-                    >
+                  {technologies[cat.key].map((tech, index) =>
+                <div
+                  key={index}
+                  className="group relative"
+                  onMouseEnter={() => setHoveredTech(tech.name)}
+                  onMouseLeave={() => setHoveredTech(null)}>
+
                       <div className={`relative bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:border-[#3B82F6]/50 hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 ${
-                        hoveredTech === tech.name ? 'shadow-lg shadow-[#3B82F6]/20' : ''
-                      }`}>
+                  hoveredTech === tech.name ? 'shadow-lg shadow-[#3B82F6]/20' : ''}`
+                  }>
                         <span className="text-4xl mb-4 block transform group-hover:scale-125 transition-transform duration-500">
                           {tech.icon}
                         </span>
@@ -74,15 +74,15 @@ const TechnologySection = () => {
                         <div className="absolute inset-0 rounded-2xl bg-[#3B82F6]/10 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 -z-10" />
                       </div>
                     </div>
-                  ))}
+                )}
                 </div>
               </TabsContent>
-            ))}
+            )}
           </Tabs>
         </ScrollReveal>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default TechnologySection;
