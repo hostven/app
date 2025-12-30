@@ -100,6 +100,35 @@ We also offer ongoing maintenance and support packages to ensure your website co
     icon: "ShoppingCart",
     image: "https://images.unsplash.com/photo-1688561808434-886a6dd97b8c?w=800",
     heroImage: "https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=1200",
+    zigzagContent: [
+      {
+        title: "Conversion-Optimized Shopping Experience",
+        description: "Every element of your store is designed to maximize sales. From intuitive product discovery to frictionless checkout, we create shopping experiences that turn browsers into buyers. Our data-driven approach ensures every design decision is backed by proven conversion principles.",
+        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+        stats: [
+          { value: "45%", label: "Reduced cart abandonment" },
+          { value: "185%", label: "Sales increase" }
+        ]
+      },
+      {
+        title: "Seamless Payment Integration",
+        description: "We integrate with all major payment gateways and support multiple currencies, digital wallets, and buy-now-pay-later options. Our PCI-compliant implementations ensure your customers' financial data is always protected while providing a smooth, trustworthy checkout experience.",
+        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800",
+        stats: [
+          { value: "50+", label: "Payment methods" },
+          { value: "100%", label: "PCI compliant" }
+        ]
+      },
+      {
+        title: "Inventory & Order Management",
+        description: "Real-time inventory tracking, automated reorder alerts, and seamless fulfillment integration keep your operations running smoothly. Our systems integrate with major shipping carriers and warehouse management solutions to provide accurate delivery estimates and order tracking.",
+        image: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800",
+        stats: [
+          { value: "Real-time", label: "Stock updates" },
+          { value: "15+", label: "Carrier integrations" }
+        ]
+      }
+    ],
     fullDescription: `The e-commerce landscape has evolved dramatically, and today's consumers expect nothing less than seamless, personalized shopping experiences. At NioDelta Web Studio, we specialize in creating e-commerce solutions that not only meet these expectations but exceed them, driving sales and building customer loyalty.
 
 Our e-commerce expertise spans from small boutique shops to large-scale enterprise platforms handling thousands of transactions daily. We understand the unique challenges of online retail and have developed proven strategies to overcome them.
