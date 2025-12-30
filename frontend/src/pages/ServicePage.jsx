@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import ScrollReveal from '../components/ui/ScrollReveal';
+import ZigZagSection from '../components/services/ZigZagSection';
 import { services } from '../data/mock';
 import { ArrowRight, ArrowLeft, CheckCircle, Monitor, ShoppingCart, Palette, TrendingUp, Figma, Smartphone } from 'lucide-react';
 
